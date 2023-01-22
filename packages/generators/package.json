@@ -1,0 +1,11 @@
+{
+  "name": "@ignite-ui/generators",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "generate": "plop --plopfile ./index.js"
+  },
+  "devDependencies": {
+    "plop": "^3.1.1"
+  }
+}
