@@ -1,9 +1,9 @@
 import { ComponentProps } from 'react'
 import * as S from './styles'
 
-export type TextInputProps = {
+export interface TextInputProps extends ComponentProps<typeof S.Input> {
   prefix?: string
-} & ComponentProps<typeof S.Input>
+}
 
 export function TextInput({ prefix, ...props }: TextInputProps) {
   return (

@@ -89,6 +89,6 @@ export const Button = styled('button', {
   },
 })
 
-export type ButtonProps = {
+export interface ButtonProps extends ComponentProps<typeof Button> {
   as?: ElementType
-} & ComponentProps<typeof Button>
+}
