@@ -3,7 +3,7 @@ import { User } from 'phosphor-react'
 
 import * as S from './styles'
 
-export interface AvatarProps extends ComponentProps<typeof S.AvatarImage> {}
+export interface AvatarProps extends ComponentProps<typeof S.AvatarImage> { }
 
 export function Avatar(props: AvatarProps) {
   return (
@@ -16,3 +16,5 @@ export function Avatar(props: AvatarProps) {
     </S.AvatarContainer>
   )
 }
+
+Avatar.displayName = 'Avatar'
